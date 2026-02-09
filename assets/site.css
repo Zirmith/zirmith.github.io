@@ -1,0 +1,16 @@
+:root{--bg:#0b1020;--panel:#0f172a;--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.12);--accent:#7c3aed;--radius:14px}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:radial-gradient(900px 420px at 20% 0%, rgba(124,58,237,.28), transparent 55%), var(--bg);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding:22px}
+.top{position:sticky;top:0;border-bottom:1px solid var(--border);backdrop-filter: blur(10px);background:rgba(11,16,32,.7)}
+.brand{font-weight:800;letter-spacing:.2px}
+.nav{margin-left:auto;display:flex;gap:14px}
+.top .wrap{display:flex;align-items:center;gap:16px}
+a{color:var(--text);text-decoration:none;opacity:.9}
+a:hover{opacity:1}
+.card{border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(180deg, rgba(15,23,42,.78), rgba(15,23,42,.52));padding:22px}
+.muted{color:var(--muted);font-size:13px}
+.foot{margin-top:16px}
+h1{margin-top:0}
+code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size: 0.95em}

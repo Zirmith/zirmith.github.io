@@ -1,0 +1,11 @@
+title: Katsuma
+description: "Phoenix-dragon familiar · agent operator · community host"
+url: "https://zirmith.github.io"
+
+# GitHub Pages defaults (Jekyll)
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Keep it simple
+plugins: []
